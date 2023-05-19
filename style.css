@@ -1,0 +1,166 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,body {
+    font-family:sans-serif;
+    background-color:rgb(0, 15, 7);
+}
+
+header,footer {
+    background-color: rgb(0, 124, 93);
+    text-align: center;
+    padding: 20px;
+    width: 100%;
+}
+
+.judul-project {
+    color: rgb(212, 209, 209);
+    margin:10px;
+    text-shadow: 3px 3px 4px rgba(3, 51, 26, 0.747);
+}
+
+main {
+    max-width: 800px;
+    width: 80%;
+    margin: 0 auto;
+    padding: 16px;
+}
+
+.input-section {
+    border: 1px solid white;
+    padding: 20px;
+    border-radius: 5px;
+    margin: 20px 0 30px 0;
+    background-color: rgb(13, 24, 24);
+}
+
+h2 {
+    text-align: center;
+    color: rgb(141, 160, 156);
+    font-size: 20px;
+}
+
+.input {
+    margin: 20px;
+    border: 1px solid white;
+}
+
+.input-section>form>.input>input {
+    display: block;
+    width: 100%;
+    padding: 15px;
+    }
+
+#judulBuku, #penulisBuku, #tahunBuku {
+    background-color:rgb(0, 15, 7);
+    border: none;
+    font-size:1em;
+    font-weight:bold;
+    color: rgb(190, 185, 185);
+}
+
+.buttons {
+    display: flex;
+    width: 95%;
+    margin: auto;
+    margin-top: 20px;
+}
+#submitBuku {
+    background-color: rgb(0, 124, 93);
+    color: rgb(211, 205, 205);
+    border: none;
+    border-radius: 2px 0 0 2px;
+    width: 50%;
+    cursor: pointer;
+    padding: 10px;
+}
+#submitBuku:hover {
+    background-color:rgb(4, 104, 79);
+}
+
+#resetBuku {
+    background-color: rgb(88, 88, 88);
+    color: rgb(196, 192, 192);
+    border: none;
+    border-radius: 0 2px 2px 0;
+    width: 50%;
+    cursor: pointer;
+    padding: 10px;
+}
+#resetBuku:hover {
+    background-color:rgb(70, 70, 70);
+}
+
+.daftarBuku {
+    border: 1px solid white;
+    margin-top: 15px;
+    padding: 10px;
+    background-color: rgb(13, 24, 24);
+    border-radius: 5px;
+}
+
+.bukuSaya {
+    padding: 10px;
+}
+
+.buku {
+    padding: 8px;
+    background-color: rgb(0, 15, 7);
+    border: 1px solid rgb(255, 255, 255);
+    border-radius: 2px;
+    margin: 0 0 10px 0; 
+}
+
+.bukuSaya > .buku > h3, p {
+    margin: 7px;
+    color: rgb(172, 169, 169);
+}
+
+.action {
+    margin: 8px;
+}
+.green {
+    background-color: rgb(0, 124, 93);
+    padding: 9px;
+    border: none;
+    border-radius: 2px;
+    cursor: pointer;
+    color: rgb(216, 216, 216);
+}
+.green:hover {
+    background-color: rgb(1, 90, 68);
+}
+
+.red {
+    background-color: rgb(134, 8, 24);
+    padding: 9px;
+    border: none;
+    border-radius: 2px;
+    color: rgb(216, 216, 216);
+    cursor: pointer;
+}
+.red:hover {
+    background-color: rgb(107, 6, 20);
+}
+
+.checkBox {
+    font-size: 1em;
+    color: rgb(0, 124, 93);
+    margin: 0 0 20px 20px;
+    border: 1px solid rgb(0, 124, 93);
+    width: 20%;
+    padding: 5px;
+    border-radius: 1px;
+    display:inline;
+    font-weight: 550;
+}
+.checkBox:hover {
+    background-color: rgb(31, 39, 34);
+}
+
+#cbDone {
+    cursor: pointer;
+}

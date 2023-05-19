@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bookshelf Apps</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1 class="judul-project">Bookshelf Apps</h1>
+    </header>
+    <main>
+        <section class="input-section">
+            <h2>Tambahkan Buku Bacaan</h2>
+            <form id="formBuku">
+                <div class="input">
+                    <input type="text" id="judulBuku" placeholder="Judul buku....." required>
+                </div>
+                <div class="input">
+                    <input type="text" id="penulisBuku" placeholder="Penulis buku....." required>
+                </div>
+                <div class="input">
+                    <input type="number" id="tahunBuku" placeholder="Tahun....." required>
+                </div>
+                <div class="checkBox">
+                    <input type="checkbox" name="sudahDibaca" id="cbDone">
+                    <label for="sudahDibaca">Selesai dibaca</label>
+                </div>
+
+                <div class="buttons">
+                <button id="submitBuku" type="submit">TAMBAH</button>
+                <button id="resetBuku" type="reset">RESET</button>
+                </div>
+            </form>
+        </section>
+
+        <section class="daftarBuku">
+            <h2>Buku Saya</h2>
+            <div id="incompleteBook" class="bukuSaya">
+                <!-- Tempat Buku  -->
+            </div>
+        </section>
+
+        <section class="daftarBuku">
+            <h2>Selesai Dibaca</h2>
+                <div id="completeBook" class="bukuSaya">
+                <!-- Tempat Buku  -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>Copyright &copy;Nugrawan Pratama 2022</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
